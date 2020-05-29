@@ -1,4 +1,4 @@
-/
+/*
   Somma e media
   Scrivi un programma che dati 5 numeri restituisca in output la somma e la media.
 
