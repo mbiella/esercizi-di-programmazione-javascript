@@ -18,4 +18,9 @@
   http://www.imparareaprogrammare.it
 */
 
-var gatti = 44;
+var cats = 5;
+var catsPerRow = 2;
+var row = Math.ceil(cats/catsPerRow);
+var missing = (catsPerRow - (cats%catsPerRow));
+
+console.log(`numero di file: ${row} gatti mancanti: ${missing}`);
