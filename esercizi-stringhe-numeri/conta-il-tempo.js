@@ -18,7 +18,5 @@
 let tempo = 12560;
 let ore = tempo/3600;
 
-picchetto
-
 
 console.log(ore);
