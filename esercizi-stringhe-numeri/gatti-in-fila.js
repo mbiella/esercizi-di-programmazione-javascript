@@ -18,9 +18,13 @@
   http://www.imparareaprogrammare.it
 */
 
-var cats = 5;
-var catsPerRow = 2;
-var row = Math.ceil(cats/catsPerRow);
-var missing = (catsPerRow - (cats%catsPerRow));
+let cats = 65;
+let catsPerRow = 6;
+let row = Math.ceil(cats/catsPerRow);
+let missing = catsPerRow-(cats%catsPerRow);
 
-console.log(`numero di file: ${row} gatti mancanti: ${missing}`);
+console.log('Le righe sono: ' + row);
+if (missing>0)
+{
+  console.log('Nell\'ultima riga mancano: ' + missing + ' gatto/i');  
+}
